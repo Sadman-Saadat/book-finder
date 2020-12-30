@@ -34,6 +34,9 @@ const Book = (props) => {
                         image: props.image,
                         description: props.description,
                         props: props.props
+                    }}
+                    style={{
+                        color:'#1ab1ad'
                     }}>See Details</Link>
                 </div>
             </div>
