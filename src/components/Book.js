@@ -33,7 +33,8 @@ const Book = (props) => {
                         published: props.published,
                         image: props.image,
                         description: props.description,
-                        props: props.props
+                        props: props.props,
+                        link: props.book.volumeInfo.previewLink
                     }}
                     style={{
                         color:'#1ab1ad'

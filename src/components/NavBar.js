@@ -5,7 +5,7 @@ const NavBar = () => {
     return (
         <nav>
             <div className="nav-wrapper" style={{ backgroundColor: "#74cce1" }}>
-                <a href="#" className="brand-logo" style={{
+                <a href="/" className="brand-logo" style={{
                     position: 'absolute', left: '42%', top: '65%',
                     transform: 'translate(-50%, -50%)'
                 }}><img src={"https://i.imgur.com/a0EyrZV.png"}
