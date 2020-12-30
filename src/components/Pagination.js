@@ -12,7 +12,6 @@ const Pagination = (props) => {
 
         let classes="wave-effect "+isActive;
         page_links.push(<button className={classes} key={i} onClick={()=>{
-            console.log("i er value: "+i);
             props.nextPage(i);
         }}>{i}</button>)
     }
