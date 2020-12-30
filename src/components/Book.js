@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from "react-router-dom"
 
 const Book = (props) => {
-
     return (
         <div className="col s12 m3">
             <div className="card">
@@ -18,11 +17,15 @@ const Book = (props) => {
                     <p>{props.book.volumeInfo.publishedDate}</p>
                 </div>
                 <div className="card-action">
-                    <p>{props.book.id}</p>
-                <Link to={{
-                    pathname: "/book/" + props.book.id,
-                    info: props.book.volumeInfo,
-                }}>See Details</Link>
+                    <Link to={{
+                        pathname: "/book/" + props.title,
+                        title: props.title,
+                        author: props.author,
+                        published: props.published,
+                        image: props.image,
+                        description: props.description,
+                        props: props.props
+                    }}>See Details</Link>
                 </div>
             </div>
         </div>
