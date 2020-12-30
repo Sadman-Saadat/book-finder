@@ -4,9 +4,9 @@ import Book from './Book';
 const BookList = (props) => {
     console.log(props.books);
     return (
-        <div className="container">
+        <div className="container" flex-basis= "auto">
             <div className="row">
-                <div className="col s12">
+                <div className="col s12" >
                     {props.books.map((book, i) => {
                         return <Book
                             book={book}

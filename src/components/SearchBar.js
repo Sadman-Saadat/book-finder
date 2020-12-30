@@ -9,7 +9,7 @@ const SearchBar = (props) => {
                         <div className='input-field'>
                             <input placeholder="search for books" type="text" onChange={props.handleChange}></input>
                         </div>
-                        <div className="col s6 pull-s2">
+                        <div className="col s6 push-s3">
                             <select color="black" className="browser-default dropdown select-css" defaultValue="Sort" onChange={props.handleSort}>
                                 <option disabled value="Sort">Choose a Sorting Option</option>
                                 <option value="Newest">Newest</option>
