@@ -14,8 +14,6 @@ const SearchBar = (props) => {
                                 <option disabled value="Sort">Choose a Sorting Option</option>
                                 <option value="Newest">Newest</option>
                                 <option value="Oldest">Oldest</option>
-                                <option value="Ascending">A-Z</option>
-                                <option value="Descending">Z-A</option>
                             </select>
                         </div>
                     </form>
